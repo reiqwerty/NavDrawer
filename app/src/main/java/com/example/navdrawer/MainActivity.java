@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
                         getSupportFragmentManager().beginTransaction()
                                 .replace(R.id.content_frame, new POTMFragment())
                                 .commit();
-                        getSupportActionBar().setTitle("POTM Page");
+                        getSupportActionBar().setTitle("POTM");
                     }
 
                     drawerLayout.closeDrawers();
@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
                     .replace(R.id.content_frame, new ClubFragment())
                     .commit();
 
-            getSupportActionBar().setTitle("Club Page");
+            getSupportActionBar().setTitle("Klasemen LaLiga");
         }
 
         private void showPOTMPage() {
@@ -79,6 +79,6 @@ public class MainActivity extends AppCompatActivity {
                 .replace(R.id.content_frame, new TopScorerFragment())
                 .commit();
 
-            getSupportActionBar().setTitle("Top Scorer Page");
+            getSupportActionBar().setTitle("Top Scorer");
         }
     }

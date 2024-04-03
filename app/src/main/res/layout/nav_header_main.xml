@@ -2,24 +2,38 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="160dp"
-    android:background="@color/RoyalBlue">
+    android:background="@color/BlueViolet">
 
     <ImageView
         android:id="@+id/imageViewProfile"
         android:layout_width="64dp"
         android:layout_height="64dp"
-        android:src="@mipmap/ic_launcher_round"
-        android:layout_centerInParent="true"
-        android:layout_marginTop="16dp"/>
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/pfp" />
 
     <TextView
         android:id="@+id/textViewUsername"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Rayhan Fathurrahman Rabbani"
+        android:fontFamily="@font/latobold"
         android:textColor="@android:color/white"
         android:textSize="18sp"
         android:layout_below="@id/imageViewProfile"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewBadge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="• LaLiga Subscription •"
+        android:fontFamily="@font/poppinsmedium"
+        android:textColor="@color/Orange"
+        android:textSize="15sp"
+        android:layout_below="@id/textViewUsername"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"/>
+
 </RelativeLayout>

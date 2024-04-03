@@ -2,14 +2,14 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/menu_item1"
-        android:icon="@android:drawable/ic_menu_call"
+        android:icon="@drawable/club"
         android:title="LaLiga Club" />
     <item
         android:id="@+id/menu_item2"
-        android:icon="@android:drawable/ic_menu_camera"
+        android:icon="@drawable/scorer"
         android:title="Top Scorer" />
     <item
         android:id="@+id/menu_item3"
-        android:icon="@android:drawable/ic_menu_camera"
+        android:icon="@drawable/potm"
         android:title="POTM" />
 </menu>
